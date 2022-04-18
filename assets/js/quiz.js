@@ -14,35 +14,35 @@ let availableQuestions = []
 
 let questions = [
     {
-        question:'what is 2 + 2?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
+        question:'what is the html tag for a link?',
+        choice1: '<div>',
+        choice2: '<a>',
+        choice3: '<li>',
+        choice4: '<ul>',
         answer: 2,
     },
     {
-        question:'what is 2 + 0?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
+        question:'what is the html tag for a ordered list?',
+        choice1: '<ol>',
+        choice2: '<ul>',
+        choice3: '<li>',
+        choice4: '<div>',
         answer: 1,
     },
     {
-        question:'what is 2 + 15?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
+        question:'what is the html tag for unordered list?',
+        choice1: '<li>',
+        choice2: '<ol>',
+        choice3: '<a>',
+        choice4: '<ul>',
         answer: 4,
     },
     {
-        question:'what is 2 + 19?',
+        question:'How many h1 tags should you have?',
         choice1: '2',
         choice2: '4',
-        choice3: '21',
-        choice4: '17',
+        choice3: '1',
+        choice4: '3',
         answer: 3,
     }
 ]
@@ -63,7 +63,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('./end.html') 
+        return window.location.assign('/end.html') 
     }
 
     questionCounter++
