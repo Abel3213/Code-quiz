@@ -8,3 +8,7 @@ https://abel3213.github.io/Code-quiz/
 
 ## Deployed website screenshot
 ![image](https://user-images.githubusercontent.com/98985844/163875495-74241df3-f317-4f78-a6dc-25a02f194b2d.png)
+
+## Resources/Credit
+https://www.youtube.com/watch?v=f4fB9Xg2JEY
+Brian Design
